@@ -54,7 +54,7 @@ Make sure you have Python installed on your machine.
 
 1. Clone the repository
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/AnmolCanCodes/Youtube-research-tool
    cd youtube-research-tool
    ```
 
