@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube Research Tool</title>
+    <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+    <main class="container">
+        <section class="hero-card">
+            <div class="hero-copy">
+                <p class="eyebrow">AI Content Planning</p>
+                <h1>YouTube Research Tool</h1>
+                <p class="subtitle">Turn one topic into a structured YouTube outline with title, hook, sections, examples, and CTA.</p>
+            </div>
+
+            <form id="outline-form" class="generator-form">
+                <label for="topic">Topic</label>
+                <input id="topic" name="topic" type="text" placeholder="Example: Python automation" required />
+                <button type="submit">Generate Outline</button>
+            </form>
+
+            <div class="status-box">
+                <p id="status" class="status">Waiting for a topic...</p>
+            </div>
+
+            <div id="result" class="result"></div>
+        </section>
+    </main>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
